@@ -1,0 +1,8 @@
+2018-08-05 17:00:12.722 [main] ERROR com.imooc.o2o.util.ImageUtil - javax.imageio.IIOException: Can't read input file!
+2018-08-05 17:51:34.336 [main] ERROR com.imooc.o2o.util.ImageUtil - javax.imageio.IIOException: Can't read input file!
+2018-08-05 17:59:06.825 [main] ERROR com.imooc.o2o.util.ImageUtil - javax.imageio.IIOException: Can't read input file!
+2018-08-05 18:00:34.566 [main] ERROR com.imooc.o2o.util.ImageUtil - javax.imageio.IIOException: Can't read input file!
+2018-08-05 18:04:06.357 [main] ERROR com.imooc.o2o.util.ImageUtil - javax.imageio.IIOException: Can't read input file!
+2018-08-05 18:07:26.210 [main] ERROR com.imooc.o2o.util.ImageUtil - java.io.FileNotFoundException: D:\projectdev\imageD:\xiaohuangren.jpg2018080518072580866.jpg (文件名、目录名或卷标语法不正确。)
+2018-08-05 18:10:29.925 [main] ERROR com.imooc.o2o.util.ImageUtil - java.io.FileNotFoundException: Could not find file: D:\Users\WF\xiaohuangren.jpg
+2018-08-05 18:11:09.374 [main] ERROR com.imooc.o2o.util.ImageUtil - java.io.FileNotFoundException: Could not find file: D:\Users\WF\xiaohuangren.jpg
