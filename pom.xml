@@ -124,6 +124,7 @@
 			<version>0.4.8</version>
 		</dependency>
 		<!-- https://mvnrepository.com/artifact/com.github.penggle/kaptcha -->
+		<!--图片验证码  -->
 		<dependency>
 			<groupId>com.github.penggle</groupId>
 			<artifactId>kaptcha</artifactId>
