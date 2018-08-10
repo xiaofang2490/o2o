@@ -25,30 +25,30 @@ public class ShopServiceTest extends BaseTest {
 	@Autowired
 	private ShopService shopService;
 
-//	@Test
-//	public void testGetShopList() {
-//		Shop shopCondition = new Shop();
-//		ShopCategory sc = new ShopCategory();
-//		sc.setShopCategoryId(3L);
-//		shopCondition.setShopCategory(sc);
-//		ShopExecution se = shopService.getShopList(shopCondition, 2, 2);
-//		System.out.println("店铺列表数为：" + se.getShopList().size());
-//		System.out.println("店铺总数为：" + se.getCount());
-//	}
+	@Test
+	public void testGetShopList() {
+		Shop shopCondition = new Shop();
+		ShopCategory sc = new ShopCategory();
+		sc.setShopCategoryId(20L);
+		shopCondition.setShopCategory(sc);
+		ShopExecution se = shopService.getShopList(shopCondition, 1, 2);
+		System.out.println("店铺列表数为：" + se.getShopList().size());
+		System.out.println("店铺总数为：" + se.getCount());
+	}
 
-//	@Test
-//	@Ignore
-//	public void testModifyShop() throws ShopOperationException, FileNotFoundException {
-//		Shop shop = new Shop();
-//		shop.setShopId(1L);
-//		shop.setShopName("修改后的店铺名称");
-//		File shopImg = new File("/Users/baidu/work/image/dabai.jpg");
-//		InputStream is = new FileInputStream(shopImg);
-//		ImageHolder imageHolder = new ImageHolder("dabai.jpg", is);
-//		ShopExecution shopExecution = shopService.modifyShop(shop, imageHolder);
-//		System.out.println("新的图片地址为：" + shopExecution.getShop().getShopImg());
-//	}
+	@Ignore
+	@Test
+	public void testModifyShop() throws ShopOperationException, FileNotFoundException {
+		Shop shop = new Shop();
+		shop.setShopId(1L);
+		shop.setShopName("修改后的店铺名称");
+		File shopImg = new File("d://projectdev/dabai.jpg");
+		InputStream is = new FileInputStream(shopImg);
+		ShopExecution shopExecution = shopService.modifyShop(shop, is, "dabai.jpg");
+		System.out.println("新的图片地址为：" + shopExecution.getShop().getShopImg());
+	}
 
+	@Ignore
 	@Test
 	public void testAddShop() throws ShopOperationException, FileNotFoundException {
 		Shop shop = new Shop();

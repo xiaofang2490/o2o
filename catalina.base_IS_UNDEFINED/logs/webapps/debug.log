@@ -1,83 +1,48 @@
-2018-08-05 16:56:35.752 [main] DEBUG com.imooc.o2o.dao.ShopDao.insertShop - ==>  Preparing: INSERT INTO tb_shop(owner_id, area_id, shop_category_id, shop_name, shop_desc, shop_addr, phone, shop_img, priority, create_time, last_edit_time, enable_status, advice) VALUES (?,?,?,?, ?,?,?,?,?, ?,?, ?,?) 
-2018-08-05 16:56:36.158 [main] DEBUG com.imooc.o2o.dao.ShopDao.insertShop - ==> Parameters: 1(Long), 2(Integer), 1(Long), 测试的店铺3(String), test3(String), test3(String), test3(String), null, null, 2018-08-05 16:56:34.27(Timestamp), 2018-08-05 16:56:35.016(Timestamp), 0(Integer), 审核中(String)
-2018-08-05 17:00:12.035 [main] DEBUG com.imooc.o2o.dao.ShopDao.insertShop - ==>  Preparing: INSERT INTO tb_shop(owner_id, area_id, shop_category_id, shop_name, shop_desc, shop_addr, phone, shop_img, priority, create_time, last_edit_time, enable_status, advice) VALUES (?,?,?,?, ?,?,?,?,?, ?,?, ?,?) 
-2018-08-05 17:00:12.093 [main] DEBUG com.imooc.o2o.dao.ShopDao.insertShop - ==> Parameters: 1(Long), 2(Integer), 1(Long), 测试的店铺3(String), test3(String), test3(String), test3(String), null, null, 2018-08-05 17:00:11.97(Timestamp), 2018-08-05 17:00:11.97(Timestamp), 0(Integer), 审核中(String)
-2018-08-05 17:00:12.156 [main] DEBUG com.imooc.o2o.dao.ShopDao.insertShop - <==    Updates: 1
-2018-08-05 17:00:12.196 [main] DEBUG com.imooc.o2o.util.ImageUtil - current relativeAddr is :\upload\images\item\shop\2\2018080517001215573.jpg
-2018-08-05 17:00:12.196 [main] DEBUG com.imooc.o2o.util.ImageUtil - current complete addr is :D:\projectdev\image\upload\images\item\shop\2\2018080517001215573.jpg
-2018-08-05 17:00:12.196 [main] DEBUG com.imooc.o2o.util.ImageUtil - basePath is :/D:/eclipse_mars_workspace/o2o/target/test-classes/
-2018-08-05 17:51:34.114 [main] DEBUG com.imooc.o2o.dao.ShopDao.insertShop - ==>  Preparing: INSERT INTO tb_shop(owner_id, area_id, shop_category_id, shop_name, shop_desc, shop_addr, phone, shop_img, priority, create_time, last_edit_time, enable_status, advice) VALUES (?,?,?,?, ?,?,?,?,?, ?,?, ?,?) 
-2018-08-05 17:51:34.204 [main] DEBUG com.imooc.o2o.dao.ShopDao.insertShop - ==> Parameters: 1(Long), 2(Integer), 1(Long), 测试的店铺3(String), test3(String), test3(String), test3(String), null, null, 2018-08-05 17:51:34.012(Timestamp), 2018-08-05 17:51:34.012(Timestamp), 0(Integer), 审核中(String)
-2018-08-05 17:51:34.218 [main] DEBUG com.imooc.o2o.dao.ShopDao.insertShop - <==    Updates: 1
-2018-08-05 17:51:34.247 [main] DEBUG com.imooc.o2o.util.ImageUtil - current relativeAddr is :\upload\images\item\shop\3\2018080517513487485.jpg
-2018-08-05 17:51:34.247 [main] DEBUG com.imooc.o2o.util.ImageUtil - current complete addr is :D:\projectdev\image\upload\images\item\shop\3\2018080517513487485.jpg
-2018-08-05 17:51:34.247 [main] DEBUG com.imooc.o2o.util.ImageUtil - basePath is :/D:/eclipse_mars_workspace/o2o/target/test-classes/
-2018-08-05 17:59:06.662 [main] DEBUG com.imooc.o2o.dao.ShopDao.insertShop - ==>  Preparing: INSERT INTO tb_shop(owner_id, area_id, shop_category_id, shop_name, shop_desc, shop_addr, phone, shop_img, priority, create_time, last_edit_time, enable_status, advice) VALUES (?,?,?,?, ?,?,?,?,?, ?,?, ?,?) 
-2018-08-05 17:59:06.703 [main] DEBUG com.imooc.o2o.dao.ShopDao.insertShop - ==> Parameters: 1(Long), 2(Integer), 1(Long), 测试的店铺3(String), test3(String), test3(String), test3(String), null, null, 2018-08-05 17:59:06.616(Timestamp), 2018-08-05 17:59:06.623(Timestamp), 0(Integer), 审核中(String)
-2018-08-05 17:59:06.724 [main] DEBUG com.imooc.o2o.dao.ShopDao.insertShop - <==    Updates: 1
-2018-08-05 17:59:06.734 [main] DEBUG com.imooc.o2o.util.ImageUtil - current relativeAddr is :\upload\images\item\shop\4\2018080517590689634.jpg
-2018-08-05 17:59:06.735 [main] DEBUG com.imooc.o2o.util.ImageUtil - current complete addr is :D:\projectdev\image\upload\images\item\shop\4\2018080517590689634.jpg
-2018-08-05 17:59:06.735 [main] DEBUG com.imooc.o2o.util.ImageUtil - basePath is :/D:/eclipse_mars_workspace/o2o/target/test-classes/
-2018-08-05 18:00:34.326 [main] DEBUG com.imooc.o2o.dao.ShopDao.insertShop - ==>  Preparing: INSERT INTO tb_shop(owner_id, area_id, shop_category_id, shop_name, shop_desc, shop_addr, phone, shop_img, priority, create_time, last_edit_time, enable_status, advice) VALUES (?,?,?,?, ?,?,?,?,?, ?,?, ?,?) 
-2018-08-05 18:00:34.364 [main] DEBUG com.imooc.o2o.dao.ShopDao.insertShop - ==> Parameters: 1(Long), 2(Integer), 1(Long), 测试的店铺3(String), test3(String), test3(String), test3(String), null, null, 2018-08-05 18:00:34.298(Timestamp), 2018-08-05 18:00:34.298(Timestamp), 0(Integer), 审核中(String)
-2018-08-05 18:00:34.432 [main] DEBUG com.imooc.o2o.dao.ShopDao.insertShop - <==    Updates: 1
-2018-08-05 18:00:34.443 [main] DEBUG com.imooc.o2o.util.ImageUtil - current relativeAddr is :D://xiaohuangren.jpg2018080518003434965.jpg
-2018-08-05 18:00:34.443 [main] DEBUG com.imooc.o2o.util.ImageUtil - current complete addr is :D:\projectdev\imageD://xiaohuangren.jpg2018080518003434965.jpg
-2018-08-05 18:00:34.444 [main] DEBUG com.imooc.o2o.util.ImageUtil - basePath is :/D:/eclipse_mars_workspace/o2o/target/test-classes/
-2018-08-05 18:02:47.245 [main] DEBUG com.imooc.o2o.dao.ShopDao.insertShop - ==>  Preparing: INSERT INTO tb_shop(owner_id, area_id, shop_category_id, shop_name, shop_desc, shop_addr, phone, shop_img, priority, create_time, last_edit_time, enable_status, advice) VALUES (?,?,?,?, ?,?,?,?,?, ?,?, ?,?) 
-2018-08-05 18:02:47.328 [main] DEBUG com.imooc.o2o.dao.ShopDao.insertShop - ==> Parameters: 1(Long), 2(Integer), 1(Long), 测试的店铺3(String), test3(String), test3(String), test3(String), null, null, 2018-08-05 18:02:47.213(Timestamp), 2018-08-05 18:02:47.213(Timestamp), 0(Integer), 审核中(String)
-2018-08-05 18:02:47.354 [main] DEBUG com.imooc.o2o.dao.ShopDao.insertShop - <==    Updates: 1
-2018-08-05 18:03:21.589 [main] DEBUG com.imooc.o2o.util.ImageUtil - current relativeAddr is :D://xiaohuangren.jpg2018080518024982542.jpg
-2018-08-05 18:04:00.669 [main] DEBUG com.imooc.o2o.util.ImageUtil - current complete addr is :D:\projectdev\imageD://xiaohuangren.jpg2018080518024982542.jpg
-2018-08-05 18:04:02.547 [main] DEBUG com.imooc.o2o.util.ImageUtil - basePath is :/D:/eclipse_mars_workspace/o2o/target/test-classes/
-2018-08-05 18:07:25.919 [main] DEBUG com.imooc.o2o.dao.ShopDao.insertShop - ==>  Preparing: INSERT INTO tb_shop(owner_id, area_id, shop_category_id, shop_name, shop_desc, shop_addr, phone, shop_img, priority, create_time, last_edit_time, enable_status, advice) VALUES (?,?,?,?, ?,?,?,?,?, ?,?, ?,?) 
-2018-08-05 18:07:25.969 [main] DEBUG com.imooc.o2o.dao.ShopDao.insertShop - ==> Parameters: 1(Long), 2(Integer), 1(Long), 测试的店铺3(String), test3(String), test3(String), test3(String), null, null, 2018-08-05 18:07:25.894(Timestamp), 2018-08-05 18:07:25.894(Timestamp), 0(Integer), 审核中(String)
-2018-08-05 18:07:25.984 [main] DEBUG com.imooc.o2o.dao.ShopDao.insertShop - <==    Updates: 1
-2018-08-05 18:07:25.998 [main] DEBUG com.imooc.o2o.util.ImageUtil - current relativeAddr is :D://xiaohuangren.jpg2018080518072580866.jpg
-2018-08-05 18:07:25.999 [main] DEBUG com.imooc.o2o.util.ImageUtil - current complete addr is :D:\projectdev\imageD://xiaohuangren.jpg2018080518072580866.jpg
-2018-08-05 18:07:25.999 [main] DEBUG com.imooc.o2o.util.ImageUtil - basePath is :/D:/eclipse_mars_workspace/o2o/target/test-classes/
-2018-08-05 18:10:29.659 [main] DEBUG com.imooc.o2o.dao.ShopDao.insertShop - ==>  Preparing: INSERT INTO tb_shop(owner_id, area_id, shop_category_id, shop_name, shop_desc, shop_addr, phone, shop_img, priority, create_time, last_edit_time, enable_status, advice) VALUES (?,?,?,?, ?,?,?,?,?, ?,?, ?,?) 
-2018-08-05 18:10:29.704 [main] DEBUG com.imooc.o2o.dao.ShopDao.insertShop - ==> Parameters: 1(Long), 2(Integer), 1(Long), 测试的店铺3(String), test3(String), test3(String), test3(String), null, null, 2018-08-05 18:10:29.624(Timestamp), 2018-08-05 18:10:29.624(Timestamp), 0(Integer), 审核中(String)
-2018-08-05 18:10:29.768 [main] DEBUG com.imooc.o2o.dao.ShopDao.insertShop - <==    Updates: 1
-2018-08-05 18:10:29.782 [main] DEBUG com.imooc.o2o.util.ImageUtil - current relativeAddr is :D://xiaohuangren.jpg2018080518102933999.jpg
-2018-08-05 18:10:29.783 [main] DEBUG com.imooc.o2o.util.ImageUtil - current complete addr is :D:\projectdev\imageD://xiaohuangren.jpg2018080518102933999.jpg
-2018-08-05 18:10:29.783 [main] DEBUG com.imooc.o2o.util.ImageUtil - basePath is :/D:/eclipse_mars_workspace/o2o/target/test-classes/
-2018-08-05 18:11:09.098 [main] DEBUG com.imooc.o2o.dao.ShopDao.insertShop - ==>  Preparing: INSERT INTO tb_shop(owner_id, area_id, shop_category_id, shop_name, shop_desc, shop_addr, phone, shop_img, priority, create_time, last_edit_time, enable_status, advice) VALUES (?,?,?,?, ?,?,?,?,?, ?,?, ?,?) 
-2018-08-05 18:11:09.155 [main] DEBUG com.imooc.o2o.dao.ShopDao.insertShop - ==> Parameters: 1(Long), 2(Integer), 1(Long), 测试的店铺3(String), test3(String), test3(String), test3(String), null, null, 2018-08-05 18:11:09.061(Timestamp), 2018-08-05 18:11:09.061(Timestamp), 0(Integer), 审核中(String)
-2018-08-05 18:11:09.212 [main] DEBUG com.imooc.o2o.dao.ShopDao.insertShop - <==    Updates: 1
-2018-08-05 18:11:09.255 [main] DEBUG com.imooc.o2o.util.ImageUtil - current relativeAddr is :upload\images\item\shop\9\2018080518110977789.jpg
-2018-08-05 18:11:09.256 [main] DEBUG com.imooc.o2o.util.ImageUtil - current complete addr is :D:\projectdev\imageupload\images\item\shop\9\2018080518110977789.jpg
-2018-08-05 18:11:09.256 [main] DEBUG com.imooc.o2o.util.ImageUtil - basePath is :/D:/eclipse_mars_workspace/o2o/target/test-classes/
-2018-08-05 18:11:46.908 [main] DEBUG com.imooc.o2o.dao.ShopDao.insertShop - ==>  Preparing: INSERT INTO tb_shop(owner_id, area_id, shop_category_id, shop_name, shop_desc, shop_addr, phone, shop_img, priority, create_time, last_edit_time, enable_status, advice) VALUES (?,?,?,?, ?,?,?,?,?, ?,?, ?,?) 
-2018-08-05 18:11:46.947 [main] DEBUG com.imooc.o2o.dao.ShopDao.insertShop - ==> Parameters: 1(Long), 2(Integer), 1(Long), 测试的店铺3(String), test3(String), test3(String), test3(String), null, null, 2018-08-05 18:11:46.875(Timestamp), 2018-08-05 18:11:46.875(Timestamp), 0(Integer), 审核中(String)
-2018-08-05 18:11:46.958 [main] DEBUG com.imooc.o2o.dao.ShopDao.insertShop - <==    Updates: 1
-2018-08-05 18:11:46.969 [main] DEBUG com.imooc.o2o.util.ImageUtil - current relativeAddr is :upload\images\item\shop\10\2018080518114650951.jpg
-2018-08-05 18:11:46.969 [main] DEBUG com.imooc.o2o.util.ImageUtil - current complete addr is :D:\projectdev\imageupload\images\item\shop\10\2018080518114650951.jpg
-2018-08-05 18:11:46.969 [main] DEBUG com.imooc.o2o.util.ImageUtil - basePath is :/D:/eclipse_mars_workspace/o2o/target/test-classes/
-2018-08-05 18:11:47.214 [main] DEBUG com.imooc.o2o.dao.ShopDao.updateShop - ==>  Preparing: update tb_shop SET shop_name=?, shop_desc=?, shop_addr=?, phone=?, shop_img=?, last_edit_time=?, enable_status=?, advice=?, area_id=?, shop_category_id=? where shop_id=? 
-2018-08-05 18:11:47.216 [main] DEBUG com.imooc.o2o.dao.ShopDao.updateShop - ==> Parameters: 测试的店铺3(String), test3(String), test3(String), test3(String), upload\images\item\shop\10\2018080518114650951.jpg(String), 2018-08-05 18:11:46.875(Timestamp), 0(Integer), 审核中(String), 2(Integer), 1(Long), 10(Long)
-2018-08-05 18:11:47.292 [main] DEBUG com.imooc.o2o.dao.ShopDao.updateShop - <==    Updates: 1
-2018-08-05 18:14:10.132 [main] DEBUG com.imooc.o2o.dao.ShopDao.insertShop - ==>  Preparing: INSERT INTO tb_shop(owner_id, area_id, shop_category_id, shop_name, shop_desc, shop_addr, phone, shop_img, priority, create_time, last_edit_time, enable_status, advice) VALUES (?,?,?,?, ?,?,?,?,?, ?,?, ?,?) 
-2018-08-05 18:14:10.197 [main] DEBUG com.imooc.o2o.dao.ShopDao.insertShop - ==> Parameters: 1(Long), 2(Integer), 1(Long), 测试的店铺3(String), test3(String), test3(String), test3(String), null, null, 2018-08-05 18:14:10.101(Timestamp), 2018-08-05 18:14:10.101(Timestamp), 0(Integer), 审核中(String)
-2018-08-05 18:14:10.216 [main] DEBUG com.imooc.o2o.dao.ShopDao.insertShop - <==    Updates: 1
-2018-08-05 18:14:27.411 [main] DEBUG com.imooc.o2o.util.ImageUtil - current relativeAddr is :upload\images\item\shop\11\2018080518141442269.jpg
-2018-08-05 18:14:29.280 [main] DEBUG com.imooc.o2o.util.ImageUtil - current complete addr is :D:\projectdev\imageupload\images\item\shop\11\2018080518141442269.jpg
-2018-08-05 18:14:36.303 [main] DEBUG com.imooc.o2o.util.ImageUtil - basePath is :/D:/eclipse_mars_workspace/o2o/target/test-classes/
-2018-08-05 18:14:57.330 [main] DEBUG com.imooc.o2o.dao.ShopDao.updateShop - ==>  Preparing: update tb_shop SET shop_name=?, shop_desc=?, shop_addr=?, phone=?, shop_img=?, last_edit_time=?, enable_status=?, advice=?, area_id=?, shop_category_id=? where shop_id=? 
-2018-08-05 18:14:57.332 [main] DEBUG com.imooc.o2o.dao.ShopDao.updateShop - ==> Parameters: 测试的店铺3(String), test3(String), test3(String), test3(String), upload\images\item\shop\11\2018080518141442269.jpg(String), 2018-08-05 18:14:10.101(Timestamp), 0(Integer), 审核中(String), 2(Integer), 1(Long), 11(Long)
-2018-08-05 18:14:57.356 [main] DEBUG com.imooc.o2o.dao.ShopDao.updateShop - <==    Updates: 1
-2018-08-05 21:11:53.345 [main] DEBUG com.imooc.o2o.dao.ShopDao.insertShop - ==>  Preparing: INSERT INTO tb_shop(owner_id, area_id, shop_category_id, shop_name, shop_desc, shop_addr, phone, shop_img, priority, create_time, last_edit_time, enable_status, advice) VALUES (?,?,?,?, ?,?,?,?,?, ?,?, ?,?) 
-2018-08-05 21:11:53.381 [main] DEBUG com.imooc.o2o.dao.ShopDao.insertShop - ==> Parameters: 1(Long), 2(Integer), 1(Long), 测试的店铺321(String), test333(String), test333(String), test3(String), null, null, 2018-08-05 21:11:53.315(Timestamp), 2018-08-05 21:11:53.315(Timestamp), 0(Integer), 审核中(String)
-2018-08-05 21:11:53.426 [main] DEBUG com.imooc.o2o.dao.ShopDao.insertShop - <==    Updates: 1
-2018-08-05 21:11:53.446 [main] DEBUG com.imooc.o2o.util.ImageUtil - current relativeAddr is :upload\images\item\shop\12\2018080521115341976.jpg
-2018-08-05 21:11:53.447 [main] DEBUG com.imooc.o2o.util.ImageUtil - current complete addr is :D:\projectdev\imageupload\images\item\shop\12\2018080521115341976.jpg
-2018-08-05 21:11:53.447 [main] DEBUG com.imooc.o2o.util.ImageUtil - basePath is :/D:/eclipse_mars_workspace/o2o/target/test-classes/
-2018-08-05 21:11:53.703 [main] DEBUG com.imooc.o2o.dao.ShopDao.updateShop - ==>  Preparing: update tb_shop SET shop_name=?, shop_desc=?, shop_addr=?, phone=?, shop_img=?, last_edit_time=?, enable_status=?, advice=?, area_id=?, shop_category_id=? where shop_id=? 
-2018-08-05 21:11:53.705 [main] DEBUG com.imooc.o2o.dao.ShopDao.updateShop - ==> Parameters: 测试的店铺321(String), test333(String), test333(String), test3(String), upload\images\item\shop\12\2018080521115341976.jpg(String), 2018-08-05 21:11:53.315(Timestamp), 0(Integer), 审核中(String), 2(Integer), 1(Long), 12(Long)
-2018-08-05 21:11:53.715 [main] DEBUG com.imooc.o2o.dao.ShopDao.updateShop - <==    Updates: 1
-2018-08-08 16:42:00.235 [main] DEBUG c.imooc.o2o.dao.ShopCategoryDao.queryShopCategory - ==>  Preparing: SELECT shop_category_id, shop_category_name, shop_category_desc, shop_category_img, priority, create_time, last_edit_time, parent_id FROM tb_shop_category WHERE parent_id is not null ORDER BY priority DESC 
-2018-08-08 16:42:00.264 [main] DEBUG c.imooc.o2o.dao.ShopCategoryDao.queryShopCategory - ==> Parameters: 
-2018-08-08 16:42:00.283 [main] DEBUG c.imooc.o2o.dao.ShopCategoryDao.queryShopCategory - <==      Total: 15
-2018-08-08 16:43:01.110 [main] DEBUG c.imooc.o2o.dao.ShopCategoryDao.queryShopCategory - ==>  Preparing: SELECT shop_category_id, shop_category_name, shop_category_desc, shop_category_img, priority, create_time, last_edit_time, parent_id FROM tb_shop_category WHERE parent_id is not null ORDER BY priority DESC 
-2018-08-08 16:43:01.138 [main] DEBUG c.imooc.o2o.dao.ShopCategoryDao.queryShopCategory - ==> Parameters: 
-2018-08-08 16:43:01.156 [main] DEBUG c.imooc.o2o.dao.ShopCategoryDao.queryShopCategory - <==      Total: 15
+2018-08-10 10:33:01.046 [main] DEBUG com.imooc.o2o.dao.ShopDao.queryByShopId - ==>  Preparing: SELECT s.shop_id, s.shop_name, s.shop_desc, s.shop_addr, s.phone, s.shop_img, s.priority, s.create_time, s.last_edit_time, s.enable_status, s.advice, a.area_id, a.area_name, sc.shop_category_id, sc.shop_category_name FROM tb_shop s, tb_area a, tb_shop_category sc WHERE s.area_id=a.area_id AND s.shop_category_id = sc.shop_category_id AND s.shop_id = ? 
+2018-08-10 10:33:01.077 [main] DEBUG com.imooc.o2o.dao.ShopDao.queryByShopId - ==> Parameters: 1(Long)
+2018-08-10 10:33:01.093 [main] DEBUG com.imooc.o2o.dao.ShopDao.queryByShopId - <==      Total: 1
+2018-08-10 10:33:01.099 [main] DEBUG com.imooc.o2o.util.ImageUtil - current relativeAddr is :upload\images\item\shop\1\2018081010330120276.jpg
+2018-08-10 10:33:01.100 [main] DEBUG com.imooc.o2o.util.ImageUtil - current complete addr is :D:\projectdev\imageupload\images\item\shop\1\2018081010330120276.jpg
+2018-08-10 10:33:01.100 [main] DEBUG com.imooc.o2o.util.ImageUtil - basePath is :/H:/wfStudyProject/o2o/target/test-classes/
+2018-08-10 10:33:01.319 [main] DEBUG com.imooc.o2o.dao.ShopDao.updateShop - ==>  Preparing: update tb_shop SET shop_name=?, shop_img=?, last_edit_time=? where shop_id=? 
+2018-08-10 10:33:01.321 [main] DEBUG com.imooc.o2o.dao.ShopDao.updateShop - ==> Parameters: 修改后的店铺名称(String), upload\images\item\shop\1\2018081010330120276.jpg(String), 2018-08-10 10:33:01.3(Timestamp), 1(Long)
+2018-08-10 10:33:01.325 [main] DEBUG com.imooc.o2o.dao.ShopDao.updateShop - <==    Updates: 1
+2018-08-10 10:33:01.326 [main] DEBUG com.imooc.o2o.dao.ShopDao.queryByShopId - ==>  Preparing: SELECT s.shop_id, s.shop_name, s.shop_desc, s.shop_addr, s.phone, s.shop_img, s.priority, s.create_time, s.last_edit_time, s.enable_status, s.advice, a.area_id, a.area_name, sc.shop_category_id, sc.shop_category_name FROM tb_shop s, tb_area a, tb_shop_category sc WHERE s.area_id=a.area_id AND s.shop_category_id = sc.shop_category_id AND s.shop_id = ? 
+2018-08-10 10:33:01.326 [main] DEBUG com.imooc.o2o.dao.ShopDao.queryByShopId - ==> Parameters: 1(Long)
+2018-08-10 10:33:01.328 [main] DEBUG com.imooc.o2o.dao.ShopDao.queryByShopId - <==      Total: 1
+2018-08-10 14:22:19.216 [main] DEBUG com.imooc.o2o.dao.ShopDao.queryShopList - ==>  Preparing: SELECT s.shop_id, s.shop_name, s.shop_desc, s.shop_addr, s.phone, s.shop_img, s.priority, s.create_time, s.last_edit_time, s.enable_status, s.advice, a.area_id, a.area_name, sc.shop_category_id, sc.shop_category_name FROM tb_shop s, tb_area a, tb_shop_category sc WHERE s.owner_id = ? AND s.area_id=a.area_id AND s.shop_category_id = sc.shop_category_id ORDER BY s.priority DESC LIMIT ?,?; 
+2018-08-10 14:22:19.245 [main] DEBUG com.imooc.o2o.dao.ShopDao.queryShopList - ==> Parameters: 1(Long), 0(Integer), 5(Integer)
+2018-08-10 14:22:19.268 [main] DEBUG com.imooc.o2o.dao.ShopDao.queryShopList - <==      Total: 5
+2018-08-10 14:22:50.730 [main] DEBUG com.imooc.o2o.dao.ShopDao.queryShopList - ==>  Preparing: SELECT s.shop_id, s.shop_name, s.shop_desc, s.shop_addr, s.phone, s.shop_img, s.priority, s.create_time, s.last_edit_time, s.enable_status, s.advice, a.area_id, a.area_name, sc.shop_category_id, sc.shop_category_name FROM tb_shop s, tb_area a, tb_shop_category sc WHERE s.owner_id = ? AND s.area_id=a.area_id AND s.shop_category_id = sc.shop_category_id ORDER BY s.priority DESC LIMIT ?,?; 
+2018-08-10 14:22:50.758 [main] DEBUG com.imooc.o2o.dao.ShopDao.queryShopList - ==> Parameters: 2(Long), 0(Integer), 5(Integer)
+2018-08-10 14:22:50.770 [main] DEBUG com.imooc.o2o.dao.ShopDao.queryShopList - <==      Total: 0
+2018-08-10 14:25:56.902 [main] DEBUG com.imooc.o2o.dao.ShopDao.queryShopList - ==>  Preparing: SELECT s.shop_id, s.shop_name, s.shop_desc, s.shop_addr, s.phone, s.shop_img, s.priority, s.create_time, s.last_edit_time, s.enable_status, s.advice, a.area_id, a.area_name, sc.shop_category_id, sc.shop_category_name FROM tb_shop s, tb_area a, tb_shop_category sc WHERE s.owner_id = ? AND s.area_id=a.area_id AND s.shop_category_id = sc.shop_category_id ORDER BY s.priority DESC LIMIT ?,?; 
+2018-08-10 14:25:56.928 [main] DEBUG com.imooc.o2o.dao.ShopDao.queryShopList - ==> Parameters: 1(Long), 0(Integer), 5(Integer)
+2018-08-10 14:25:56.948 [main] DEBUG com.imooc.o2o.dao.ShopDao.queryShopList - <==      Total: 5
+2018-08-10 14:25:56.954 [main] DEBUG com.imooc.o2o.dao.ShopDao.queryShopCount - ==>  Preparing: SELECT count(1) FROM tb_shop s, tb_area a, tb_shop_category sc WHERE s.owner_id = ? AND s.area_id=a.area_id AND s.shop_category_id = sc.shop_category_id 
+2018-08-10 14:25:56.954 [main] DEBUG com.imooc.o2o.dao.ShopDao.queryShopCount - ==> Parameters: 1(Long)
+2018-08-10 14:25:56.956 [main] DEBUG com.imooc.o2o.dao.ShopDao.queryShopCount - <==      Total: 1
+2018-08-10 14:35:51.724 [main] DEBUG com.imooc.o2o.dao.ShopDao.queryShopList - ==>  Preparing: SELECT s.shop_id, s.shop_name, s.shop_desc, s.shop_addr, s.phone, s.shop_img, s.priority, s.create_time, s.last_edit_time, s.enable_status, s.advice, a.area_id, a.area_name, sc.shop_category_id, sc.shop_category_name FROM tb_shop s, tb_area a, tb_shop_category sc WHERE s.shop_category_id = ? AND s.area_id=a.area_id AND s.shop_category_id = sc.shop_category_id ORDER BY s.priority DESC LIMIT ?,?; 
+2018-08-10 14:35:51.752 [main] DEBUG com.imooc.o2o.dao.ShopDao.queryShopList - ==> Parameters: 3(Long), 2(Integer), 2(Integer)
+2018-08-10 14:35:51.767 [main] DEBUG com.imooc.o2o.dao.ShopDao.queryShopList - <==      Total: 0
+2018-08-10 14:35:51.772 [main] DEBUG com.imooc.o2o.dao.ShopDao.queryShopCount - ==>  Preparing: SELECT count(1) FROM tb_shop s, tb_area a, tb_shop_category sc WHERE s.shop_category_id = ? AND s.area_id=a.area_id AND s.shop_category_id = sc.shop_category_id 
+2018-08-10 14:35:51.773 [main] DEBUG com.imooc.o2o.dao.ShopDao.queryShopCount - ==> Parameters: 3(Long)
+2018-08-10 14:35:51.775 [main] DEBUG com.imooc.o2o.dao.ShopDao.queryShopCount - <==      Total: 1
+2018-08-10 14:36:04.733 [main] DEBUG com.imooc.o2o.dao.ShopDao.queryShopList - ==>  Preparing: SELECT s.shop_id, s.shop_name, s.shop_desc, s.shop_addr, s.phone, s.shop_img, s.priority, s.create_time, s.last_edit_time, s.enable_status, s.advice, a.area_id, a.area_name, sc.shop_category_id, sc.shop_category_name FROM tb_shop s, tb_area a, tb_shop_category sc WHERE s.shop_category_id = ? AND s.area_id=a.area_id AND s.shop_category_id = sc.shop_category_id ORDER BY s.priority DESC LIMIT ?,?; 
+2018-08-10 14:36:04.758 [main] DEBUG com.imooc.o2o.dao.ShopDao.queryShopList - ==> Parameters: 1(Long), 2(Integer), 2(Integer)
+2018-08-10 14:36:04.777 [main] DEBUG com.imooc.o2o.dao.ShopDao.queryShopList - <==      Total: 0
+2018-08-10 14:36:04.782 [main] DEBUG com.imooc.o2o.dao.ShopDao.queryShopCount - ==>  Preparing: SELECT count(1) FROM tb_shop s, tb_area a, tb_shop_category sc WHERE s.shop_category_id = ? AND s.area_id=a.area_id AND s.shop_category_id = sc.shop_category_id 
+2018-08-10 14:36:04.783 [main] DEBUG com.imooc.o2o.dao.ShopDao.queryShopCount - ==> Parameters: 1(Long)
+2018-08-10 14:36:04.785 [main] DEBUG com.imooc.o2o.dao.ShopDao.queryShopCount - <==      Total: 1
+2018-08-10 14:37:16.682 [main] DEBUG com.imooc.o2o.dao.ShopDao.queryShopList - ==>  Preparing: SELECT s.shop_id, s.shop_name, s.shop_desc, s.shop_addr, s.phone, s.shop_img, s.priority, s.create_time, s.last_edit_time, s.enable_status, s.advice, a.area_id, a.area_name, sc.shop_category_id, sc.shop_category_name FROM tb_shop s, tb_area a, tb_shop_category sc WHERE s.shop_category_id = ? AND s.area_id=a.area_id AND s.shop_category_id = sc.shop_category_id ORDER BY s.priority DESC LIMIT ?,?; 
+2018-08-10 14:37:16.710 [main] DEBUG com.imooc.o2o.dao.ShopDao.queryShopList - ==> Parameters: 20(Long), 2(Integer), 2(Integer)
+2018-08-10 14:37:16.728 [main] DEBUG com.imooc.o2o.dao.ShopDao.queryShopList - <==      Total: 0
+2018-08-10 14:37:16.733 [main] DEBUG com.imooc.o2o.dao.ShopDao.queryShopCount - ==>  Preparing: SELECT count(1) FROM tb_shop s, tb_area a, tb_shop_category sc WHERE s.shop_category_id = ? AND s.area_id=a.area_id AND s.shop_category_id = sc.shop_category_id 
+2018-08-10 14:37:16.734 [main] DEBUG com.imooc.o2o.dao.ShopDao.queryShopCount - ==> Parameters: 20(Long)
+2018-08-10 14:37:16.735 [main] DEBUG com.imooc.o2o.dao.ShopDao.queryShopCount - <==      Total: 1
+2018-08-10 14:37:30.764 [main] DEBUG com.imooc.o2o.dao.ShopDao.queryShopList - ==>  Preparing: SELECT s.shop_id, s.shop_name, s.shop_desc, s.shop_addr, s.phone, s.shop_img, s.priority, s.create_time, s.last_edit_time, s.enable_status, s.advice, a.area_id, a.area_name, sc.shop_category_id, sc.shop_category_name FROM tb_shop s, tb_area a, tb_shop_category sc WHERE s.shop_category_id = ? AND s.area_id=a.area_id AND s.shop_category_id = sc.shop_category_id ORDER BY s.priority DESC LIMIT ?,?; 
+2018-08-10 14:37:30.791 [main] DEBUG com.imooc.o2o.dao.ShopDao.queryShopList - ==> Parameters: 20(Long), 0(Integer), 2(Integer)
+2018-08-10 14:37:30.805 [main] DEBUG com.imooc.o2o.dao.ShopDao.queryShopList - <==      Total: 2
+2018-08-10 14:37:30.811 [main] DEBUG com.imooc.o2o.dao.ShopDao.queryShopCount - ==>  Preparing: SELECT count(1) FROM tb_shop s, tb_area a, tb_shop_category sc WHERE s.shop_category_id = ? AND s.area_id=a.area_id AND s.shop_category_id = sc.shop_category_id 
+2018-08-10 14:37:30.811 [main] DEBUG com.imooc.o2o.dao.ShopDao.queryShopCount - ==> Parameters: 20(Long)
+2018-08-10 14:37:30.813 [main] DEBUG com.imooc.o2o.dao.ShopDao.queryShopCount - <==      Total: 1
