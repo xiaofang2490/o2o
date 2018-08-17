@@ -2,11 +2,11 @@ $(function() {
 	// 从URL里获取productId参数的值
 	var productId = getQueryString('productId');
 	// 通过productId获取商品信息的URL
-	var infoUrl = '/o2o/shopadmin/getproductbyid?productId=' + productId;
+	var infoUrl = '/o2o/shopAdmin/getProductById?productId=' + productId;
 	// 获取当前店铺设定的商品类别列表的URL
-	var categoryUrl = '/o2o/shopadmin/getproductcategorylist';
+	var categoryUrl = '/o2o/shopAdmin/getProductCategoryLists';
 	// 更新商品信息的URL
-	var productPostUrl = '/o2o/shopadmin/modifyproduct';
+	var productPostUrl = '/o2o/shopAdmin/modifyProduct';
 	// 由于商品添加和编辑使用的是同一个页面，
 	// 该标识符用来标明本次是添加还是编辑操作
 	var isEdit = false;
@@ -16,7 +16,7 @@ $(function() {
 		isEdit = true;
 	} else {
 		getCategory();
-		productPostUrl = '/o2o/shopadmin/addproduct';
+		productPostUrl = '/o2o/shopAdmin/addProduct';
 	}
 
 	// 获取需要编辑的商品的商品信息，并赋值给表单
@@ -44,7 +44,7 @@ $(function() {
 										.map(function(item, index) {
 											var isSelect = optionSelected === item.productCategoryId ? 'selected'
 													: '';
-											optionHtml += '<option data-value="'
+											optionHtml += '<option value="'
 													+ item.productCategoryId
 													+ '"'
 													+ isSelect
@@ -64,7 +64,7 @@ $(function() {
 				var productCategoryList = data.data;
 				var optionHtml = '';
 				productCategoryList.map(function(item, index) {
-					optionHtml += '<option data-value="'
+					optionHtml += '<option value="'
 							+ item.productCategoryId + '">'
 							+ item.productCategoryName + '</option>';
 				});
@@ -82,22 +82,19 @@ $(function() {
 	});
 
 	// 提交按钮的事件响应，分别对商品添加和编辑操作做不同响应
-	$('#submit').click(
+	$('#submitProduct').click(
 			function() {
 				// 创建商品json对象，并从表单里面获取对应的属性值
 				var product = {};
 				product.productName = $('#product-name').val();
 				product.productDesc = $('#product-desc').val();
 				product.priority = $('#priority').val();
-				product.point = $('#point').val();
+//				product.point = $('#point').val();
 				product.normalPrice = $('#normal-price').val();
 				product.promotionPrice = $('#promotion-price').val();
 				// 获取选定的商品类别值
 				product.productCategory = {
-					productCategoryId : $('#category').find('option').not(
-							function() {
-								return !this.selected;
-							}).data('value')
+					productCategoryId : $('#category').find('option').val()
 				};
 				product.productId = productId;
 

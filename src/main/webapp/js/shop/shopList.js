@@ -42,7 +42,7 @@ $(function() {
 
 	function goShop(status, id) {
 		if (status == 1) {
-			return '<a href="/o2o/shopAdmin/shopManagement?shopId=' + id
+			return '<a href="/o2o/shopManager/shopManagement?shopId=' + id
 					+ '">进入</a>';
 		} else {
 			return '';

@@ -18,6 +18,7 @@ import org.springframework.web.multipart.commons.CommonsMultipartFile;
 import org.springframework.web.multipart.commons.CommonsMultipartResolver;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
+import com.imooc.o2o.dto.ImageHolder;
 import com.imooc.o2o.dto.ShopExecution;
 import com.imooc.o2o.entity.Area;
 import com.imooc.o2o.entity.PersonInfo;
@@ -98,7 +99,7 @@ public class ShopAdminController {
 		return modelMap;
 	}
 
-	@RequestMapping(value = "/getShopManagementInfo", method = RequestMethod.GET)
+	@RequestMapping(value = "/getShopManaInfo", method = RequestMethod.GET)
 	@ResponseBody
 	private Map<String, Object> getShopManagementInfo(HttpServletRequest request) {
 		Map<String, Object> modelMap = new HashMap<String, Object>();
@@ -107,7 +108,7 @@ public class ShopAdminController {
 			Object currentShopObj = request.getSession().getAttribute("currentShop");
 			if (currentShopObj == null) {
 				modelMap.put("redirect", true);
-				modelMap.put("url", "/o2o/shopAdmin/shopList");
+				modelMap.put("url", "/o2o/shopManager/shopList");
 			} else {
 				Shop currentShop = (Shop) currentShopObj;
 				modelMap.put("redirect", false);
@@ -169,7 +170,8 @@ public class ShopAdminController {
 			shop.setOwner(owner);
 			ShopExecution se ;
 			try {
-				se = shopService.addShop(shop, shopImg.getInputStream(),shopImg.getOriginalFilename());
+				ImageHolder imageHolder = new ImageHolder( shopImg.getOriginalFilename(),shopImg.getInputStream());
+				se = shopService.addShop(shop,imageHolder);
 				if(se.getState() == ShopStateEnum.CHECK.getState()){
 					modelMap.put("success", true);
 				}else{
@@ -231,13 +233,12 @@ public class ShopAdminController {
 		if (shop != null && shop.getShopId() != null) {
 			ShopExecution se;
 			try {
+				
 				if (shopImg == null) {
-					se = shopService.modifyShop(shop, null, null);
+					se = shopService.modifyShop(shop, null);
 				} else {
-					// ImageHolder imageHolder = new
-					// ImageHolder(shopImg.getOriginalFilename(),
-					// shopImg.getInputStream());
-					se = shopService.modifyShop(shop, shopImg.getInputStream(), shopImg.getOriginalFilename());
+					ImageHolder imageHolder = new ImageHolder( shopImg.getOriginalFilename(),shopImg.getInputStream());
+					se = shopService.modifyShop(shop, imageHolder);
 				}
 				if (se.getState() == ShopStateEnum.SUCCESS.getState()) {
 					modelMap.put("success", true);
